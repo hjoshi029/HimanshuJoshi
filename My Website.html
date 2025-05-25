@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himanshu Joshi - English Educator</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #003366, #006699);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      background-color: #e0e0e0;
+      padding: 10px;
+    }
+    nav button {
+      background-color: #006699;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    nav button:hover {
+      background-color: #004d66;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #003366;
+    }
+    h2 {
+      border-bottom: 2px solid #006699;
+      padding-bottom: 5px;
+    }
+    h3 {
+      color: #cc3300;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+    a {
+      color: #006699;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .video-embed {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .resume-button {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .resume-button a {
+      background-color: #006699;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .resume-button a:hover {
+      background-color: #004d66;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mr. Himanshu Joshi</h1>
+    <p><strong>Senior English Educator | CBSE Board Expert</strong></p>
+    <img src="your-photo.jpg" alt="Profile Photo">
+  </header>
+
+  <nav>
+    <button onclick="document.getElementById('about').scrollIntoView();">About Me</button>
+    <button onclick="document.getElementById('experience').scrollIntoView();">Experience</button>
+    <button onclick="document.getElementById('philosophy').scrollIntoView();">Teaching Philosophy</button>
+    <button onclick="document.getElementById('contact').scrollIntoView();">Contact</button>
+    <button onclick="window.open('https://www.facebook.com/himanshu.joshi.9615', '_blank')">Facebook</button>
+    <button onclick="window.open('https://www.linkedin.com/in/himanshu-joshi-b3474354/', '_blank')">LinkedIn</button>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <h3>Introduction</h3>
+    <p>I am Himanshu Joshi, a seasoned educator with a deep passion for the English language. Since 1995, I have been dedicated to teaching English to senior secondary students.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience & Achievements</h2>
+    <h3>Professional Journey</h3>
+    <ul>
+      <li>Over 30 years of experience in English education at the senior secondary level.</li>
+      <li>Guided thousands of students in achieving academic excellence in CBSE Board Exams.</li>
+      <li>Consistent record of students scoring above 90% in English.</li>
+      <li>Skilled in traditional literature and modern linguistic methods.</li>
+    </ul>
+    <h3>Special Highlights</h3>
+    <ul>
+      <li>Creator of numerous board-standard question papers and exam strategies.</li>
+      <li>Mentored students who are now successful professionals across various fields.</li>
+      <li>Known for discipline, dedication, and a student-focused approach.</li>
+    </ul>
+  </section>
+
+  <section id="philosophy">
+    <h2>Teaching Philosophy</h2>
+    <h3>Classroom Ideals</h3>
+    <ul>
+      <li>Blending literature with real-life communication skills.</li>
+      <li>Creating a classroom atmosphere of curiosity and expression.</li>
+    </ul>
+    <h3>Personalized Approach</h3>
+    <ul>
+      <li>Individual attention and regular feedback for all students.</li>
+      <li>Support beyond academics – interviews, public speaking, and career guidance.</li>
+    </ul>
+  </section>
+
+  <section class="video-embed">
+    <h2>Featured Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=user_uploads&list=UC-NzgRItBu22kI8txVO6oiQ" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <div class="resume-button">
+    <a href="resume.pdf" target="_blank">Download My Resume</a>
+  </div>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <h3>Stay Connected</h3>
+    <p>You can reach me at <strong>Phone: +91-9460006445</strong> or connect via social media below:</p>
+    <ul>
+      <li><a href="https://www.facebook.com/himanshu.joshi.9615" target="_blank">Facebook</a></li>
+      <li><a href="https://www.linkedin.com/in/himanshu-joshi-b3474354/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://studio.youtube.com/channel/UC-NzgRItBu22kI8txVO6oiQ/videos" target="_blank">YouTube Channel</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Himanshu Joshi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
